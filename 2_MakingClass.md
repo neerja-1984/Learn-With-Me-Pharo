@@ -1,11 +1,12 @@
-"everything inside image 2"
+## class , instance obj , methods
 =====================================================
-"class , instance obj , methods"
+
+- everything inside image 2
 
 "W1 REDO1"
 
 ```smalltalk
-"make a new package -> "go to system browserand create new package" 
+"make a new package -> go to system browserand create new package" 
 "below is class definition" 
 "instance variable == unique variable for each object"
 "class variable == shared variable for all object of the class"
@@ -20,7 +21,7 @@ Object subclass: #ReturnCounter
 ```smalltalk
 "ctrl+S"
 "return type of class in accesing part : 3rd col"
-counter: anInteger → This defines an instance method named counter: that takes one argument (anInteger).
+"counter: anInteger → This defines an instance method named counter: that takes one argument (anInteger)."
 
 counter: anInteger
   counter := anInteger
@@ -71,7 +72,7 @@ counter := counter squared.
 ```
 ------------------------------------------
 
-"exmaple 3 : iitialize + increment"
+"exmaple 3 : initialize + increment"
 
 ![alt text](image-2.png)
 ![alt text](image-3.png)

@@ -8,13 +8,13 @@ false & (Transcript show: 'This is evaluated!'; cr).  "Still evaluates!"
 true  | (Transcript show: 'This is evaluated!'; cr).  "Still evaluates!"
 ```
 
-Explanation
+Explanation :
 Even though false & ... should be false, the right-hand side still executes.
 This can be inefficient if the right-hand side is complex or causes errors.
 
 -------------------------------------------
 
-and:  , or: (lazy evaluation) noen of the below evaluate
+and:  , or: (lazy evaluation) none of the below evaluated
 
 ```smalltalk
 false and: [ Transcript show: 'This will NOT be evaluated!'; cr ].

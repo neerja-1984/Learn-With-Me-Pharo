@@ -1,8 +1,5 @@
-"W2 Phro lec"
+## W2 Phro lec - loops
 
-----------------------------
-
-"loops"
 
 ![alt text](image-6.png)
 ![alt text](image-5.png)

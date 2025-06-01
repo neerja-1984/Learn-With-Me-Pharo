@@ -17,7 +17,8 @@ therfore in line no. 5 :
 
 ```smalltalk
 s1 := Set with: (Set with: #(1 2 1)) with: (Set with: #(1 2 1)) with: 'Hello','Pharo' with: 69.
-    - (Set with: #(1 2 1)) was only added once
+
+"(Set with: #(1 2 1)) was only added once"
 ```
 
 ![alt text](image-15.png)
