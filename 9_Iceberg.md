@@ -1,12 +1,12 @@
 1) Iceberg is a version control system for Pharo.
 
-- the eblow is a image showing the repository structure added to github via Iceberg 
+- the below is a image showing the repository structure added to github via Iceberg 
 
 ![alt text](image-21.png)
 
-- connect ia ssh keys to github (username + password ) system dosent work 
+- connect via ssh keys to github (username + password ) system dosent work 
 
-- steps :
+- steps .. run the following in GitBash Terminal:
 
 ```bash
 # generate keys ( RSA dosent work anymore)
